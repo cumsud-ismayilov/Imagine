@@ -1,1 +1,4 @@
-# -magine
+## Texnologiyalar
+
+- Tailwind CSS
+- HTML5
