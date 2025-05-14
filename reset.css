@@ -1,0 +1,38 @@
+.active-nav {
+  box-shadow: 0 4px 15px -5px rgba(0, 0, 0, 0.1);
+  padding-top: 7px !important;
+  padding-bottom: 2px !important;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  animation-name: fadeInUp;
+  animation-duration: 0.5s;
+  z-index: 9999;
+  background-color: #fff;
+}
+.active-nav2 {
+  box-shadow: 0 4px 15px -5px rgba(0, 0, 0, 0.1);
+  padding-top: 7px !important;
+  padding-bottom: 2px !important;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  animation-name: fadeInUp;
+  animation-duration: 0.5s;
+  z-index: 9999;
+  background-color: #fff;
+}
+
+
+@keyframes fadeInUp {
+  from {
+    opacity: 1;
+    top: -130px;
+  }
+  to {
+    opacity: 1;
+    top: 0;
+  }
+}

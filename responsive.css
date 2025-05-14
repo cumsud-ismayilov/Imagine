@@ -1,0 +1,18 @@
+@media screen and (max-width: 992px) {
+  .desktopNav {
+    display: none;
+  }
+  .mobileNav {
+    display: block;
+  }
+  #business-sec {
+    .businnes-img {
+      width: 740px;
+      height: 600px;
+      img{
+        top: 0;
+        left: 0;
+      }
+    }
+  }
+}
